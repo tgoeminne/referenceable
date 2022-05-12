@@ -1,5 +1,5 @@
 {
-	"name" : "tgoeminne/Referenceable",
+	"name" : "tgoeminne/referenceable",
 	"description" : "Referenceable plugin for CakePHP",
 	"type" : "cakephp-plugin",
 	"license" : "MIT",
