@@ -13,7 +13,6 @@ class ReferenceableBehavior extends Behavior
 {
     protected $_defaultConfig = [
         'field' => 'reference',
-        'implementedFinders' => ['translations' => 'findTranslations'],
     ];
     
     public function reference(EntityInterface $entity)
