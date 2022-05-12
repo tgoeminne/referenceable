@@ -1,4 +1,4 @@
-# Referenceable plugin for CakePHP
+# Referenceable plugin for CakePHP 3
 
 ## Installation
 
