@@ -35,7 +35,7 @@ class ReferenceableBehavior extends Behavior
         $exists = $this->_table->find('all')->where([$field => $reference])->toArray();
         
         if(count($exists) > 0){
-            $reference = $this->reference();
+            $this->generate($field);
         }else{
             return $reference;
         }
